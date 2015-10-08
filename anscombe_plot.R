@@ -1,0 +1,12 @@
+# o.par<-par()
+par(mfrow=c(2,2),pty="s")
+plot(x1,y1,xlim=c(x.min,x.max),ylim=c(y.min,y.max),col="red")
+abline(lsfit(x1,y1))
+plot(x2,y2,xlim=c(x.min,x.max),ylim=c(y.min,y.max),col="red")
+abline(lsfit(x2,y2))
+plot(x3,y3,xlim=c(x.min,x.max),ylim=c(y.min,y.max),col="red")
+abline(lsfit(x3,y3))
+plot(x4,y4,xlim=c(x.min,x.max),ylim=c(y.min,y.max),col="red")
+abline(lsfit(x4,y4))
+# par(o.par)
+
