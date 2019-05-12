@@ -1,5 +1,6 @@
 # Anscombe's Quartet Revision
 
+<!--
 * ggplot2 패키지 설치 및  `library` 탑재
 
 ```{r}
@@ -38,10 +39,16 @@ str(anscombe)
 ```
 
 * 자료의 일부와 전체 출력
+-->
 
-```{r}
-head(anscombe)
+## Data
+
+```{r, echo = FALSE}
+# head(anscombe)
 anscombe
+```
+
+```{r, echo = FALSE}
 x1 <- anscombe$x1
 x2 <- anscombe$x2
 x3 <- anscombe$x3
